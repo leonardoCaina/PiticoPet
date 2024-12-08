@@ -1,0 +1,160 @@
+/* Estilo geral */
+body {
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    
+   
+background-color: #FFFAF0; /* Fundo creme claro */
+    display: flex;
+
+   
+justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container do login */
+
+
+.login-container {
+ 
+background: #FFFFFF;
+    padding: 25px 35px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    
+   
+max-width: 400px;
+    
+   
+text-align: center;
+}
+
+.cadastrar-se{
+    display: flex;
+    justify-content: end;
+}
+/* Título */
+
+h
+h2 {
+    margin-bottom: 20px;
+    color: #FF7F50; /* Coral */
+    
+   
+font-size: 26px;
+    font-weight: bold;
+}
+
+/* Grupos de input */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+
+
+/* Labels */
+label {
+    display: block;
+    
+ 
+font-size: 16px;
+    color: #333333;
+    
+ 
+margin-bottom: 5px;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 2px solid #FFB6C1; /* Rosa claro */
+    
+  
+border-radius: 10px;
+    outline: none;
+    
+   
+
+ 
+background-color: #FFF5F5; /* Fundo suave */
+    transition: border-color 0.3s;
+}
+input:focus {
+    border-color: #FF7F50; /* Coral */
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 12px;
+font-size: 16px;
+background-color: #FF7F50; /* Coral */
+color: #FFFFFF;
+    border: none;
+border-radius: 10px;
+cursor: pointer;
+    font-weight: bold;
+transition: background-color 0.3s;
+}
+
+
+
+
+butto
+
+
+
+bu
+
+
+button:hover {
+    background-color: #FF6347; /* Tomate */
+}
+
+/* Mensagem de erro */
+#error-message {
+    color: #FF4500; /* Laranja escuro */
+    font-size: 14px;
+    
+   
+margin-top: 10px;
+    text-align: center;
+}
+
+/* Adicionando ícones de pet */
+.login-container::before {
+    content: "🐾";
+    font-size: 40px;
+    color: #FF7F50; /* Coral */
+    display: block;
+    text-align: center;
+    
+   
+margin-bottom: 10px;
+}
+
+.cadastro-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #FF7F50; /* Coral */
+}
+
+.cadastro-link a {
+    color: #FF7F50;
+    font-weight: bold;
+text-decoration: none;
+ 
+transition: color 0.3s;
+}
+
+.cadastro-link a:hover {
+    
+   
+color: #FF6347; /* Tomate */
+}
